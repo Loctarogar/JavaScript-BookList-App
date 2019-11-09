@@ -3,7 +3,7 @@
 class Book {
     constructor(title, author, isbn) {
         this.title = title;
-        this.author = authror;
+        this.author = author;
         this.isbn = isbn;
     }
 }
@@ -45,6 +45,7 @@ class UI {
 // Store Class: Handles Storage
 
 // Event: Display Books
+document.addEventListener('DOMContentLoaded', UI.displayBooks);
 
 // Event: Add a Book
 
